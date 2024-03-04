@@ -1,0 +1,253 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(../Image/mercedes4.avif);left: 100px;
+    height: 100vh;
+}
+.accueil{
+    margin-top: 3%;
+}
+.accueil a{
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 2%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-color: rgb(29, 29, 29);
+    background-color: rgb(39, 39, 39);
+    padding: 10px;
+}
+.accueil a:hover{
+    background-color: rgb(8, 8, 8);
+    color: rgb(37, 37, 37);
+}
+.accueil a span:hover{
+    color: rgb(68, 68, 68);
+}
+.reservation{
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    background: rgb(39, 39, 39);
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.reservation h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.reservation form{
+    padding: 0 40px 100px 40px;
+    box-sizing: border-box;
+}
+
+form .insertion{
+    position: relative;
+    border-bottom: 2px solid #505050;
+    margin: 30px 0;
+}
+
+.insertion input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.insertion label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #7a7a7a;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.choice select{
+   color:#979797; 
+   background-color: rgb(65, 65, 65);
+   
+}
+
+
+.insertion span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #ffffff;
+    transition: .5s;
+}
+
+.insertion input:focus ~ label,
+.insertion input:valid ~ label{
+    top: 0%;
+    color: #e7e5e5;
+}
+
+.insertion input:focus ~ span::before,
+.insertion input:valid ~ span::before{
+    width: 100%;
+}
+
+form .andro{
+    width: 135px;
+    position: relative;
+    border-bottom: 2px solid #958787;
+    margin: 50px 0px;
+}
+
+.andro input{
+    width: auto;
+    color: #958787;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.andro label{
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    color: #958787;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.andro span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #ced0d1;
+    transition: .5s;
+}
+
+.andro input:focus ~ label,
+.andro input:valid ~ label{
+    top: -7%;
+    color: #e4e4e4;
+}
+
+.andro input:focus ~ span::before,
+.andro input:valid ~ span::before{
+    width: 100%;
+}
+
+form .ora{
+    width: 150px;
+    position: relative;
+    border-bottom: 2px solid #958787;
+    margin: 50px 0;
+}
+
+.ora input{
+    width: auto;
+    color: #958787;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.ora label{
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    color: #958787;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.ora span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #e0e0e0;
+    transition: .5s;
+}
+
+.ora input:focus ~ label,
+.ora input:valid ~ label{
+    top: -7%;
+    color: #bbbbbb;
+}
+
+.ora input:focus ~ span::before,
+.ora input:valid ~ span::before{
+    width: 100%;
+}
+
+input[type="submit"]{
+    position: absolute;
+    left: 40%;
+    width: 150px;
+    height: 38px;
+    border: 2px solid #cacaca;
+    background: #cacaca;
+    border-radius: 50px;
+    font-size: 16px;
+    color: rgb(83, 82, 82);
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    border-color: rgb(112, 110, 106);
+    transition: .5s;
+    background-color: rgb(92, 89, 89);
+    color: white;
+}
+
+.nb{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 130px;
+    font-style: italic;
+    font-weight: 500;
+    color:gray
+}
+
+.choix {
+    background-color: transparent;
+    border-color: #9c9c9c;
+    border-radius: 10px;
+    color: #9c9c9c;
+    padding: 6px;
+    margin-left: 15px;
+}
+
+.choix:hover {
+    border-color: white;
+    color: white;
+}

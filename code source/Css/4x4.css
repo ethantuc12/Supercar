@@ -1,0 +1,25 @@
+body{
+	margin:0px;
+	padding: 0px;
+}
+
+.espace{
+    color: white;
+    font-size: 30px;
+    padding-left: 20%;
+    padding-top: 60px;
+}
+
+.texte{
+    color: white;
+    padding-top: 100px;
+    text-align: justify;
+    margin-left: 18%;
+    margin-right: 18%;
+    font-size: 20px;
+}
+
+video {
+    padding-top: 100px;
+}
+

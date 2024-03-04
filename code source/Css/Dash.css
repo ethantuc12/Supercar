@@ -1,0 +1,30 @@
+body{
+   background: linear-gradient(45deg, white, #6f6f70);
+}
+
+
+.container {
+   width: 70%;
+   margin: 14% auto;
+   text-align: center;
+}
+
+/* Style pour les boutons */
+.button {
+   padding: 70px 100px;
+   margin: 5px;
+   background-color: #000000;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+}
+
+.login {
+   position: absolute;
+   top: 0;
+   right: 0;
+   padding: 10px;
+   color: #fff;
+   text-decoration: none;
+
+}

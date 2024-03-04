@@ -1,0 +1,15 @@
+ftp:
+
+Host: ftp-supercartuck.alwaysdata.net
+Username: supercartuck
+Password: ctwqf43n
+
+sql:
+
+$servername = "mysql-supercartuck.alwaysdata.net";
+$username = "337676_ethan";
+$password = "ctwqf43n";
+$database_name = "supercartuck_supercar";
+
+
+url admin: https://supercartuck.alwaysdata.net/admin/admin%20connexion.php

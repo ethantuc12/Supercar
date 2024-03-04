@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    margin: auto;
+    text-align: justify;
+}
+
+table{
+    margin: auto;
+    padding: 75px;
+}

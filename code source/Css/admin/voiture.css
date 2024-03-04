@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a gradient background for the body */
+body {
+    background: linear-gradient(45deg, white, #6f6f70);
+    font-family: sans-serif;
+    font-weight: 100;
+    overflow: hidden; /* Hide the body's default scrollbar */
+}
+
+/* Create a container for the table with specific height and overflow */
+.table-container {
+    height: 400px; /* Adjust the height as needed */
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    border-radius: 10px;
+}
+
+/* Center the container on the page */
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: 1350px;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+/* Style the table header */
+th {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Style the table cells */
+td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+}
+
+/* Style the table header in thead */
+thead th {
+    background-color: #3b3b3c;
+}
+
+/* Highlight rows on hover */
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Create a pseudo-element for table cells on hover */
+tbody td {
+    position: relative;
+}
+
+tbody td:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+}
+
+/* Style for the "Add Contact" button */
+.add-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    
+    margin-top: 10px;
+    margin-right: 20px; /* Adjust the margin to control the button's position */
+}
+
+/* Style for the "Add Contact" button on hover (optional) */
+.add-button:hover {
+    color: #3b3b3c;
+}
+
+.back-button {
+	position: absolute;
+	top: 100px;
+	left: 110px;
+	padding: 10px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 23px;
+}
+
+/* Style for the "Add Contact" button on hover (optional) */
+.add-button:hover {
+    color: #3b3b3c; /* Darker green color on hover */
+	
+}
+
+
+/* Style for the page title */
+h1 {
+    color: white;
+    margin-left: 260px;
+    margin-top: 50px;
+}
